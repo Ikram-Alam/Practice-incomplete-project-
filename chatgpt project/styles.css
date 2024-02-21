@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.car-card {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.car-card img {
+  max-width: 100%;
+}
+
+.car-card h3 {
+  margin-top: 0;
+}
+
+.car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.car-list-item {
+ 
